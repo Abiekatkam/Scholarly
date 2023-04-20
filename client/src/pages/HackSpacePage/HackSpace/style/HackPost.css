@@ -1,0 +1,155 @@
+.hackpost {
+  background-color: var(--primary-white);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hackpost__container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hackpost__container-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hackpost__container-content > img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.hackpost__container-content > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.hackpost__container-content > div > div {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hackpost__container-content > div > div > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  object-fit: cover;
+}
+
+.hackpost__container-content > div > div > div {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hackpost__container-content > div > div > div > a {
+  width: fit-content;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000;
+  margin: 0 0 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.hackpost__container-content > div > div > div > a:hover {
+  color: var(--primary-grey);
+}
+
+.hackpost__container-content > div > div > div > div {
+  display: flex;
+  gap: 1rem;
+}
+
+.hackpost__container-content > div > div > div > div > span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.hackpost__container-conment {
+  width: 800px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hackpost__button-like {
+  width: fit-content;
+  height: 100%;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hackpost__button-like:hover {
+  transform: scale(1.1);
+}
+
+.hackpost__container-conment > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hackpost__container-conment > div > h1 {
+  width: fit-content;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+  margin: 0 0 0.75rem;
+}
+.hackpost__container-conment > div > span {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.hackpost__container-conment > p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 550px;
+  color: #000;
+  margin: 0 0 0.75rem;
+  line-height: 1.6rem;
+}
+.hackpost__container-conment > a {
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 550px;
+  color: #000;
+  margin: 0 0 0.75rem;
+  line-height: 1.6rem;
+  transition: all 0.3s ease;
+}
+
+.hackpost__container-conment > a:hover {
+  color: #888;
+}

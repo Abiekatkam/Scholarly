@@ -1,0 +1,54 @@
+.recommendcard {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 2px solid var(--primary-grey);
+  border-radius: 8px;
+  background-color: var(--primary-white);
+  transition: all 0.2s ease-in-out;
+}
+
+.recommendcard:hover {
+  border: 2px solid var(--primary-blue);
+  transform: scale(1.02);
+}
+
+.recommendcard_image {
+  width: 60%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.recommendcard_image img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.recommendcard_info {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.recommendcard_info > h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 9px;
+}
+
+.recommendcard_info > p {
+  font-size: 0.9rem;
+  line-height: 1rem;
+  font-weight: 400;
+  color: var(--primary-grey);
+  margin-bottom: 5px;
+}

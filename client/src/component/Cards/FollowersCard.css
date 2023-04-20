@@ -1,0 +1,115 @@
+.followerscard {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  overflow: auto;
+  width: 100%;
+}
+
+.followerscard > h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+  margin-top: 1rem;
+}
+
+.followerscard > button {
+  background-color: var(--primary-white);
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 0;
+  text-transform: capitalize;
+  outline: none;
+  text-decoration: underline;
+}
+
+.followerscard > button:hover {
+  color: var(--primary-grey);
+  text-decoration: none;
+}
+
+.followerscard__container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  overflow: auto;
+  width: 100%;
+}
+
+.followerscard__container > div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  overflow: auto;
+  width: 100%;
+}
+
+.followerscard__container > div > img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-left: 0.3rem;
+  border: 2px solid #000;
+}
+
+.followerscard__container > div > a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+  margin: auto 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.followerscard__container > div > a:hover {
+  color: var(--primary-grey);
+}
+
+.followerscard__container-follow {
+  background-color: #000;
+  color: var(--primary-white);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.followerscard__container-follow:hover {
+  background-color: var(--primary-white);
+  color: #000;
+  border: 1px solid #000;
+}
+.followerscard__container-unfollow:hover {
+  background-color: #000;
+  color: var(--primary-white);
+  border: 1px solid #000;
+}
+
+.followerscard__container-unfollow {
+  background-color: var(--primary-white);
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #000;
+}
+
+.followerscard-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background-color: var(--primary-white);
+}

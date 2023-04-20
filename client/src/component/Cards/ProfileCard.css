@@ -1,0 +1,76 @@
+.profilecard {
+  width: 100%;
+  height: 380px;
+  display: flex;
+  border: 3px solid #000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  padding: 10px;
+  gap: 1rem;
+}
+
+.profilecard > img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #000;
+  margin-bottom: 0.5rem;
+}
+
+.profilecard__desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+}
+
+.profilecard__desc > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  gap: 0.75rem;
+}
+
+.profilecard__desc > div > p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.profilecard__desc > h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.58rem;
+}
+
+.profilecard__desc > p {
+  font-size: 1.2rem;
+  width: 100%;
+  height: 90%;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.profilecard > a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-bottom: 0.5rem;
+}
+
+.profilecard > a:hover {
+  color: #888;
+  border-bottom: 1px solid #888;
+}

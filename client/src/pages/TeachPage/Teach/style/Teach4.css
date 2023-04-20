@@ -1,0 +1,55 @@
+.teach4 {
+  background-color: var(--primary-white);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 0;
+}
+
+.teach4__container {
+  width: 90%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.teach4__container h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.teach4__container-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.teach4__container-content--data {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10rem 0 2rem;
+  text-align: center;
+}
+
+.teach4__container-content--data h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.teach4__container-content--data p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #888;
+  line-height: 1.5rem;
+}

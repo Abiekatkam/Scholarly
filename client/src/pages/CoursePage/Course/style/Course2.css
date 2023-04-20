@@ -1,0 +1,17 @@
+.course2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-white);
+  padding: 5rem 0 3rem;
+}
+
+.course2__container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 85%;
+}

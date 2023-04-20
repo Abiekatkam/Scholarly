@@ -1,0 +1,226 @@
+.navbar {
+  background-color: transparent;
+  padding: 1.5rem 4rem;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 3rem;
+}
+
+.navbar__container-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  height: 100%;
+  gap: 0.5rem;
+}
+
+.navbar__container-data > span {
+  font-size: 0.95rem;
+  color: var(--primary-blue);
+  user-select: none;
+  font-weight: 500;
+}
+.navbar__container-data > div {
+  width: 1px;
+  height: 2rem;
+  background-color: var(--primary-blue);
+}
+.navbar__container-brand {
+  font-family: var(--Oleo);
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: var(--primary-blue);
+
+  overflow: hidden;
+  background-image: linear-gradient(to left, #09203f 0%, #537895 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 300%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
+}
+
+.navbar__container-brand:hover {
+  background-position: 0 700%;
+}
+
+.navbar__container-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  height: 100%;
+}
+
+.navbar__container-content__data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  height: 100%;
+  gap: 1.5rem;
+}
+
+.navbar__container-content__data-item {
+  font-family: var(--Enriqueta);
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--primary-grey);
+  text-decoration: none;
+}
+/* Chaneges */
+.navbar__container-content__data-link-changes {
+  font-family: var(--Enriqueta);
+  font-size: 1.3rem;
+  font-weight: 700;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--primary-white);
+  color: var(--primary-green);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar__container-content__data-link,
+.navbar__container-content__data-links {
+  font-family: var(--Enriqueta);
+  font-size: 1.3rem;
+  font-weight: 500;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--primary-white);
+  color: var(--primary-blue);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar__container-content__data-links {
+  color: var(--primary-green);
+}
+
+.navbar__container-content__data-link:hover {
+  color: var(--primary-green);
+}
+.navbar__container-content__data-links:hover {
+  color: var(--primary-blue);
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.form-group {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-group > label {
+  font-family: var(--Enriqueta);
+  font-size: 1.13rem;
+  width: 100px;
+  font-weight: 500;
+  color: var(--primary-blue);
+}
+
+.form-group > input {
+  width: 80%;
+  height: 100%;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--primary-grey);
+  border-radius: 5px;
+  font-family: var(--Enriqueta);
+  font-size: 1.13rem;
+  font-weight: 500;
+  color: var(--primary-blue);
+}
+
+.form-group > input:focus {
+  border-bottom: 2px solid var(--primary-blue);
+}
+
+.form-group > textarea {
+  width: 80%;
+  height: 80%;
+  padding: 0.5rem;
+  outline: none;
+  border: 2px solid var(--primary-grey);
+  border-radius: 5px;
+  font-family: var(--Enriqueta);
+  font-size: 1.13rem;
+  font-weight: 500;
+  color: var(--primary-blue);
+}
+
+.form-group > textarea:focus {
+  border: 2px solid var(--primary-blue);
+}
+
+.form-group > select {
+  height: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 2px solid var(--primary-grey);
+  outline: none;
+  border-radius: 5px;
+  font-family: var(--Enriqueta);
+  font-size: 1.13rem;
+  font-weight: 500;
+  color: var(--primary-blue);
+}
+
+.form-group > select:focus {
+  border-bottom: 2px solid var(--primary-blue);
+}
+
+.form-group > select > option {
+  font-family: var(--Enriqueta);
+  font-size: 1.13rem;
+  font-weight: 500;
+  color: var(--primary-blue);
+}
+
+.modal__form > button {
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: var(--Enriqueta);
+  font-size: 1.13rem;
+  font-weight: 500;
+  color: var(--primary-white);
+  background-color: var(--primary-blue);
+  transition: all 0.3s ease-in-out;
+}
+
+.modal__form > button:hover {
+  background-color: var(--primary-green);
+}
